@@ -9,6 +9,7 @@ export class ReactiveFormComponent implements OnInit {
     constructor() {
         console.log();
     }
-
-    ngOnInit(): void {}
+    ngOnInit(): void {
+        throw new Error('Method not implemented.');
+    }
 }
